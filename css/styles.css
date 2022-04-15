@@ -9,6 +9,18 @@
     padding: 7% 15%;
 }
 
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
 
 /*-----------------------------------TAG/*-----------------------------------*/
 
@@ -24,6 +36,12 @@ h3 {
 
 p {
     color: #757575;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 
@@ -81,4 +99,19 @@ p {
 
 .feature-icon:hover {
     color: #ff4c68;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-img {
+    width: 7%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
