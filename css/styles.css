@@ -73,3 +73,12 @@ p {
     text-align: center;
     padding: 5%;
 }
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
