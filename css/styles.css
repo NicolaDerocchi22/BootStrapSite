@@ -73,7 +73,7 @@
     }
     
     .container-fluid {
-        padding: 3% 15% 7%;
+        padding: 3% 15% 5%;
     }
     
     .navbar-brand {
@@ -236,13 +236,12 @@
     
     .skills-header {
         color: #2b6777;
-        font-size: 2rem;
         margin-bottom: 3%;
     }
     
     .esperienze-header {
         color: white;
-        font-size: 2rem;
+        padding-top: 5%;
     }
     
     .card-header {
