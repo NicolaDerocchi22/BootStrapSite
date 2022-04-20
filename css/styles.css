@@ -95,6 +95,10 @@
         margin: 5% 3% 5% 0;
     }
     
+    .button-contact-me:hover {
+        background-color: #81caba;
+    }
+    
     .feature-box {
         text-align: center;
         padding: 5%;
