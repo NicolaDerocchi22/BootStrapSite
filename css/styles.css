@@ -143,6 +143,8 @@ h2 {
 .copyright-text {
     font-size: 1rem;
     font-weight: 300;
+    margin-top: 2%;
+    margin-bottom: 0;
 }
 
 .social-icon {
@@ -183,6 +185,11 @@ h2 {
 
 .envelope-icon-btn-download {
     padding: 5px;
+}
+
+.istruzione-title {
+    text-align: center;
+    margin-bottom: 7%;
 }
 
 
