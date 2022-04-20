@@ -207,6 +207,7 @@
     .istruzione-title {
         text-align: center;
         margin-bottom: 7%;
+        color: #1d4550;
     }
     
     .esperienze-title {
@@ -246,6 +247,10 @@
     
     .card-header {
         background-color: #52ab98;
+    }
+    
+    .skills-container {
+        padding: 3% 10% 7%;
     }
     /* media query*/
     
