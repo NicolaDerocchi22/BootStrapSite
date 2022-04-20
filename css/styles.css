@@ -1,205 +1,217 @@
-/*-----------------------------------ID/*-----------------------------------*/
-
-#title {
-    background-color: #141414;
-    color: white;
-}
-
-#istruzione {
-    position: relative;
-}
-
-#skills {
-    padding: 150px;
-    text-align: center;
-}
-
-#contacts {
-    padding: 5% 10%;
-    text-align: center;
-}
-
-#footer {
-    text-align: center;
-}
-
-#contacts,
-#esperienze {
-    color: white;
-    text-align: center;
-    background-color: #141414;
-}
-
-#footer,
-#istruzione {
-    background-color: white;
-    padding: 7% 15%;
-}
-
-
-/*-----------------------------------TAG/*-----------------------------------*/
-
-h3 {
-    font-size: 1.5rem;
-}
-
-p {
-    color: #757575;
-}
-
-h2 {
-    font-size: 2.5rem;
-}
-
-h2,
-h3 {
-    font-weight: bold;
-}
-
-body,
-h3,
-h2 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-/*-----------------------------------CLASSI/*-----------------------------------*/
-
-#title.h1-title {
-    size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-}
-
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-
-.navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: white;
-}
-
-.navbar {
-    padding: 0 0 4.5rem;
-}
-
-.nav-item {
-    padding: 0 10px;
-}
-
-.nav-link {
-    font-size: 1rem;
-    font-weight: 300;
-}
-
-.button-contact-me {
-    margin: 5% 3% 5% 0;
-}
-
-.feature-box {
-    text-align: center;
-    padding: 5%;
-}
-
-.feature-icon {
-    color: #141414;
-    margin-bottom: 1rem;
-}
-
-.feature-icon:hover {
-    color: #141414;
-    opacity: 85%;
-}
-
-.feature-text:hover {
-    opacity: 85%;
-}
-
-.testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-}
-
-.carousel-item {
-    padding: 7% 15%;
-}
-
-.pricing-col {
-    padding: 3% 2%;
-}
-
-.cta-title {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding: 0 10%;
-    padding-bottom: 4%;
-}
-
-.copyright-text {
-    font-size: 1rem;
-    font-weight: 300;
-    margin-top: 2%;
-    margin-bottom: 0;
-}
-
-.social-icon {
-    margin: 0 1.5%;
-    text-decoration: none;
-    color: black;
-}
-
-.social-icon:hover {
-    color: rgb(114, 114, 114);
-}
-
-.profile-picture {
-    border-radius: 100%;
-    width: 35%;
-    margin-left: 60%;
-}
-
-.descrizione-subtitle-cta,
-.descrizione-subtitle,
-.copyright-text,
-.nav-link,
-.h1-title {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.descrizione-subtitle-cta,
-.descrizione-subtitle {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #757575;
-}
-
-.descrizione-subtitle-cta {
-    padding: 1% 7%;
-    font-size: 1.25rem;
-}
-
-.envelope-icon-btn-download {
-    padding: 5px;
-}
-
-.istruzione-title {
-    text-align: center;
-    margin-bottom: 7%;
-}
-
-
-/* media query*/
-
-@media (max-width: 900px) {
-    .img-title {
-        display: none;
-    }
+    /*-----------------------------------ID/*-----------------------------------*/
+    
     #title {
+        background-color: #141414;
+        color: white;
+    }
+    
+    #istruzione {
+        position: relative;
+    }
+    
+    #skills {
+        padding: 150px;
         text-align: center;
     }
-}
+    
+    #contacts {
+        padding: 5% 10%;
+        text-align: center;
+    }
+    
+    #footer {
+        text-align: center;
+    }
+    
+    #contacts,
+    #esperienze {
+        color: white;
+        text-align: center;
+        background-color: #141414;
+    }
+    
+    #footer,
+    #istruzione {
+        background-color: white;
+        padding: 7% 15%;
+    }
+    /*-----------------------------------TAG/*-----------------------------------*/
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        color: #757575;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    h2,
+    h3 {
+        font-weight: bold;
+    }
+    
+    body,
+    h3,
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    /*-----------------------------------CLASSI/*-----------------------------------*/
+    
+    #title.h1-title {
+        size: 3.5rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+    
+    .container-fluid {
+        padding: 3% 15% 7%;
+    }
+    
+    .navbar-brand {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .navbar {
+        padding: 0 0 4.5rem;
+    }
+    
+    .nav-item {
+        padding: 0 10px;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+    .button-contact-me {
+        margin: 5% 3% 5% 0;
+    }
+    
+    .feature-box {
+        text-align: center;
+        padding: 5%;
+    }
+    
+    .feature-icon {
+        color: #141414;
+        margin-bottom: 1rem;
+    }
+    
+    .feature-icon:hover {
+        color: #141414;
+        opacity: 85%;
+    }
+    
+    .feature-text:hover {
+        opacity: 85%;
+    }
+    
+    .testimonial-image {
+        width: 10%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    
+    .carousel-item {
+        padding: 7% 15%;
+    }
+    
+    .pricing-col {
+        padding: 3% 2%;
+    }
+    
+    .cta-title {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 0 10%;
+        padding-bottom: 4%;
+    }
+    
+    .copyright-text {
+        font-size: 1rem;
+        font-weight: 300;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+    
+    .social-icon {
+        margin: 0 1.5%;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .social-icon:hover {
+        color: #686868;
+    }
+    
+    .profile-picture {
+        border-radius: 100%;
+        width: 35%;
+        margin-left: 60%;
+    }
+    
+    .descrizione-subtitle-cta,
+    .descrizione-subtitle,
+    .copyright-text,
+    .nav-link {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .h1-title {
+        font-family: 'Whisper', cursive;
+        font-size: 3rem;
+    }
+    
+    .descrizione-subtitle-cta,
+    .descrizione-subtitle {
+        font-size: 1.3rem;
+        font-weight: 300;
+        color: #686868;
+    }
+    
+    .descrizione-subtitle-cta {
+        padding: 1% 7%;
+        font-size: 1.25rem;
+    }
+    
+    .envelope-icon-btn-download {
+        padding: 5px;
+    }
+    
+    .istruzione-title {
+        text-align: center;
+        margin-bottom: 7%;
+    }
+    
+    .esperienze-title {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: white;
+        margin: 5%;
+    }
+    
+    .descrizione-description {
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: rgb(206, 206, 206);
+        margin: 1%;
+    }
+    /* media query*/
+    
+    @media (max-width: 900px) {
+        .img-title {
+            display: none;
+        }
+        #title {
+            text-align: center;
+        }
+    }
