@@ -192,7 +192,7 @@
     .descrizione-subtitle {
         font-size: 1.3rem;
         font-weight: 300;
-        color: #c8d8e4;
+        color: white;
     }
     
     .descrizione-subtitle-cta {
@@ -212,21 +212,20 @@
     
     .esperienze-title {
         font-size: 1.5rem;
-        font-weight: 300;
-        color: c8d8e4;
+        color: white;
         margin: 5%;
     }
     
     .descrizione-description {
         font-size: 1.2rem;
         font-weight: 300;
-        color: #c8d8e4;
+        color: white;
         margin: 1%;
     }
     
     .skill-level {
         color: #52ab98;
-        font-size: 1.5rem;
+        font-size: 1.3derem;
     }
     
     .skill-title {
