@@ -6,15 +6,7 @@
 }
 
 #istruzione {
-    padding: 7% 15%;
-    background-color: white;
     position: relative;
-}
-
-#esperienze {
-    text-align: center;
-    background-color: #141414;
-    color: white;
 }
 
 #skills {
@@ -23,28 +15,30 @@
 }
 
 #contacts {
-    background-color: #141414;
     padding: 5% 10%;
-    color: white;
-    text-align: center;
 }
 
 #footer {
+    text-align: center;
+}
+
+#contacts,
+#esperienze {
+    color: white;
+    text-align: center;
+    background-color: #141414;
+}
+
+#footer,
+#istruzione {
     background-color: white;
     padding: 7% 15%;
-    text-align: center;
 }
 
 
 /*-----------------------------------TAG/*-----------------------------------*/
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 1.5rem;
 }
 
@@ -53,16 +47,24 @@ p {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 2.5rem;
+}
+
+h2,
+h3 {
+    font-weight: bold;
+}
+
+body,
+h3,
+h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 /*-----------------------------------CLASSI/*-----------------------------------*/
 
 .h1-title {
-    font-family: 'Montserrat', sans-serif;
     size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
@@ -89,7 +91,6 @@ h2 {
 
 .nav-link {
     font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
@@ -140,7 +141,6 @@ h2 {
 
 .copyright-text {
     font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
@@ -150,18 +150,7 @@ h2 {
     color: black;
 }
 
-.descrizione-subtitle {
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    color: #757575;
-}
-
 .descrizione-subtitle-cta {
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    color: #757575;
     padding: 1% 7%;
 }
 
@@ -169,6 +158,21 @@ h2 {
     border-radius: 100%;
     width: 35%;
     margin-left: 60%;
+}
+
+.descrizione-subtitle-cta,
+.descrizione-subtitle,
+.copyright-text,
+.nav-link,
+.h1-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.descrizione-subtitle-cta,
+.descrizione-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #757575;
 }
 
 
